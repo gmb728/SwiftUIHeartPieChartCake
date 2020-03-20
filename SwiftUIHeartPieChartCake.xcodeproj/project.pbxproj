@@ -13,6 +13,8 @@
 		DD5306532424B4ED00E13711 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD5306522424B4ED00E13711 /* Assets.xcassets */; };
 		DD5306562424B4ED00E13711 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD5306552424B4ED00E13711 /* Preview Assets.xcassets */; };
 		DD5306592424B4ED00E13711 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5306572424B4ED00E13711 /* LaunchScreen.storyboard */; };
+		DD5306632424B87400E13711 /* CakeColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5306622424B87400E13711 /* CakeColorView.swift */; };
+		DD5306652424FDCE00E13711 /* OneEightCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5306642424FDCE00E13711 /* OneEightCircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DD5306552424B4ED00E13711 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DD5306582424B4ED00E13711 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD53065A2424B4ED00E13711 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD5306622424B87400E13711 /* CakeColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeColorView.swift; sourceTree = "<group>"; };
+		DD5306642424FDCE00E13711 /* OneEightCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneEightCircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				DD53064C2424B4EB00E13711 /* AppDelegate.swift */,
 				DD53064E2424B4EB00E13711 /* SceneDelegate.swift */,
 				DD5306502424B4EB00E13711 /* ContentView.swift */,
+				DD5306642424FDCE00E13711 /* OneEightCircleView.swift */,
+				DD5306622424B87400E13711 /* CakeColorView.swift */,
 				DD5306522424B4ED00E13711 /* Assets.xcassets */,
 				DD5306572424B4ED00E13711 /* LaunchScreen.storyboard */,
 				DD53065A2424B4ED00E13711 /* Info.plist */,
@@ -146,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD5306632424B87400E13711 /* CakeColorView.swift in Sources */,
 				DD53064D2424B4EB00E13711 /* AppDelegate.swift in Sources */,
+				DD5306652424FDCE00E13711 /* OneEightCircleView.swift in Sources */,
 				DD53064F2424B4EB00E13711 /* SceneDelegate.swift in Sources */,
 				DD5306512424B4EB00E13711 /* ContentView.swift in Sources */,
 			);
